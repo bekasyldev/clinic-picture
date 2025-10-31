@@ -1,5 +1,24 @@
 /* Global Styles */
 
+/* Font Face Declarations */
+@font-face {
+  font-family: 'PP Pangram Sans';
+  src: url('../fonts/PPPangramSans-Medium.woff2') format('woff2'),
+       url('../fonts/PPPangramSans-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Pangram Sans';
+  src: url('../fonts/PPPangramSans-SemiBold.woff2') format('woff2'),
+       url('../fonts/PPPangramSans-SemiBold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* CSS Custom Properties (Variables) */
 :root {
   /* Color Palette */
@@ -248,7 +267,7 @@ body {
   text-decoration: none;
   width: 300px;
   height: 60px;
-  font-weight: 500;
+  font-weight: 400;
   transition: all 0.3s ease;
   cursor: pointer;
   border: 2px solid transparent;

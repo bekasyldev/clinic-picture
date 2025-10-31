@@ -552,6 +552,7 @@
   }
 
 
+
   #potential .flex {
     flex-direction: column !important;
     gap: 30px !important;
@@ -583,6 +584,54 @@
 
 .desktop-contact-order {
   display: block;
+}
+
+.desktop-chart {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mobile-chart {
+    display: none;
+}
+
+.desktop-timeline {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mobile-timeline {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .desktop-chart {
+        display: none;
+    }
+    
+    .mobile-chart {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .desktop-timeline {
+        display: none;
+    }
+    
+    .mobile-timeline {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+#revenue .revenue-chart {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
 }
 
 

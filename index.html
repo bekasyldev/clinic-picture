@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Document</title>
+</head>
+<body class="container mt-4 mb-4">
+    <main>
+        <section id="hero">
+            <h3 class="headline-2 mb-6">Business for sale</h3>
+            <picture>
+                <source media="(max-width: 768px)" srcset="/assets/mobile_hero.jpg">
+                <img src="/assets/hero.jpg" alt="Business for sale">
+            </picture>
+            <div>
+                <h1 class="headline mt-12 mb-10">Health & Beauty Clinic in Dubai <span class="text-blue">for sale</span></h1>
+                <div class="flex justify-between align-end">
+                    <ul class="flex flex-column gap-15">
+                        <li class="text-2"><span class="text-blue">❖</span> operational profitable business</li>
+                        <li class="text-2"><span class="text-blue">❖</span> most developing location in Dubai</li>
+                        <li class="text-2"><span class="text-blue">❖</span> huge scaling potential</li>
+                    </ul>
+                    <button onclick="window.location.href='tel:+971555555555'" class="btn">
+                        <img src="/assets/icons/whatsapp.svg" alt="WhatsApp icon">
+                        <p class="text-2 ml-4">WhatsApp</p>
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mt-6">
+                <div class="text-center">
+                    <a href="#info" class="text-2">More info</a>
+                    <img width="150" height="40" src="/assets/icons/arrow-down.svg" alt="Arrow down" style="width: 150px; height: 40px;">
+                    <style>
+                        @media (max-width: 768px) {
+                            img[alt="Arrow down"] {
+                                width: 100px !important;
+                                height: 20px !important;
+                            }
+                        }
+                    </style>
+                </div>
+            </div>
+        </section>
+        <section id="location" class="flex section" >
+            <div class="flex flex-column justify-between">
+                <div class="flex align-center gap-30">
+                    <p class="headline-2 text-dark-gray">Rating</p>
+                    <ul class="flex gap-10">
+                        <li>
+                            <img width="27" height="26" src="/assets/icons/star.svg" alt="star">
+                        </li>
+                        <li>
+                            <img width="27" height="26" src="/assets/icons/star.svg" alt="star">
+                        </li>
+                        <li>
+                            <img width="27" height="26" src="/assets/icons/star.svg" alt="star">
+                        </li>
+                        <li>
+                            <img width="27" height="26" src="/assets/icons/star.svg" alt="star">
+                        </li>
+                        <li>
+                            <img width="27" height="26" src="/assets/icons/star.svg" alt="star"> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-column mb-12">
+                    <img src="/assets/icons/globus.svg" alt="globus" height="113" width="128">
+                    <h2 class="headline mt-12">The most developing district in Dubai</h2>
+                </div>
+            </div>
+            <picture>
+                <source media="(max-width: 768px)" srcset="/assets/mobile_location.jpg">
+                <img src="/assets/location.jpg" alt="Location">
+            </picture>
+        </section>
+        <section id="collections" class="section">
+            <div class="collections-container">
+                <div class="collections-gallery">
+                    <div class="flex">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="/assets/mobile_collections_1.jpg">
+                            <img src="/assets/collections_1.jpg" alt="Image 1" loading="eager">
+                        </picture>
+                    </div>
+                    <div class="flex">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="/assets/mobile_collections_2.jpg">
+                            <img src="/assets/collections_2.jpg" alt="Image 2" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="flex">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="/assets/mobile_collections_3.jpg">
+                            <img src="/assets/collections_3.jpg" alt="Image 3" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="flex">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="/assets/mobile_collections_4.jpg">
+                            <img src="/assets/collections_4.jpg" alt="Image 4" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="flex">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="/assets/mobile_collections_5.jpg">
+                            <img src="/assets/collections_5.jpg" alt="Image 5" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="flex">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="/assets/mobile_collections_6.jpg">
+                            <img src="/assets/collections_6.jpg" alt="Image 6" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="flex">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="/assets/mobile_collections_7.jpg">
+                            <img src="/assets/collections_7.jpg" alt="Image 7" loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+                <div class="collections-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                    <span class="dot" data-slide="5"></span>
+                    <span class="dot" data-slide="6"></span>
+                </div>
+            </div>
+        </section>
+        <section id="benefits">
+            <div class="flex justify-between items-center">
+                <h3 class="headline">Our benefits</h3>
+                <p class="text-2"><span class="text-blue headline">> 10 years </span>of experience in the field</p>
+            </div>
+            <div style="margin-top: 100px;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px 60px;">
+                    <div class="flex align-center gap-15">
+                        <img src="/assets/icons/wallet.svg" alt="wallet">
+                        <p class="text-3">Personal equity in the project <br> <span class="text-blue">(100% prior to 1st investment round)</span></p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img src="/assets/icons/location.svg" alt="location">
+                        <p class="text-3">Working experience in 3 countries</p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img src="/assets/icons/note.svg" alt="idea">
+                        <p class="text-3">Clear plan for investment exploration</p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img src="/assets/icons/bank.svg" alt="bank">
+                        <p class="text-3">Income/return on investments in stable currency</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="works" class="section">
+            <h3 class="headline">What is done:</h3>
+            <div class="flex flex-done">
+                <div class="flex-1">
+                </div>
+                 <div class="flex-1 bg-blue flex align-center gap-30 pt-6 pb-6" style="padding-left: 40px; padding-right: 40px; margin-bottom: 50px;">
+                    <img src="/assets/icons/licence.svg" alt="check" style="filter: brightness(0) invert(1); width: 64px; height: 64px;">
+                    <div>
+                        <p class="text-2 text-white">400k AED revenue per month</p>
+                        <p class="headline-2 text-white"><span class="headline text-white">DHA</span> licence issued</p>
+                </div>
+            </div>
+            </div>
+
+            <div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px 60px;">
+                    <div class="flex align-center gap-15">
+                        <img width="27" height="20" src="/assets/icons/tick.svg" alt="tick">
+                        <p class="text-3">Brandbook</p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img width="27" height="20" src="/assets/icons/tick.svg" alt="tick">
+                        <p class="text-3">Social media content created</p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img width="27" height="20" src="/assets/icons/tick.svg" alt="tick">
+                        <p class="text-3">Design project</p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img width="27" height="20" src="/assets/icons/tick.svg" alt="tick">
+                        <p class="text-3">5 year lease, no mall fees from revenue</p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img width="27" height="20" src="/assets/icons/tick.svg" alt="tick">
+                        <p class="text-3">Renovation done</p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img width="27" height="20" src="/assets/icons/tick.svg" alt="tick">
+                        <p class="text-3">Marketing funnels tested</p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img width="27" height="20" src="/assets/icons/tick.svg" alt="tick">
+                        <p class="text-3">Staff assembled</p>
+                    </div>
+                    <div class="flex align-center gap-15">
+                        <img width="27" height="20" src="/assets/icons/tick.svg" alt="tick">
+                        <p class="text-3">CRM integrated <span class="text-blue">(basic level)</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="scaling" class="section">
+            <h3 class="headline mb-12">Scaling opportunities:</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+                <div class="flex align-center gap-30 bg-gray" style="padding: 20px;">
+                    <img src="/assets/icons/scal_1.svg" alt="arrow up" width="40" height="40">
+                    <div>
+                        <p class="text-3">Improve Call-center protocols</p>
+                        <span class="text-3 text-dark-gray">(working with new and repeated customers)</span>
+                    </div>
+                </div>
+                <div class="flex align-center gap-30 bg-gray" style="padding: 20px;">
+                    <img src="/assets/icons/scal_2.svg" alt="arrow up" width="40" height="40">
+                    <p class="text-3">>750k AED revenue per month</p>
+                </div>
+                <div class="flex align-center gap-30 bg-gray" style="padding: 20px;">
+                    <img src="/assets/icons/scal_3.svg" alt="arrow up" width="40" height="40">
+                    <p class="text-3">Increase marketing budget</p>
+                </div>
+                <div class="flex align-center gap-30 bg-gray" style="padding: 20px;">
+                    <img src="/assets/icons/scal_4.svg" alt="arrow up" width="40" height="40">
+                    <p class="text-3">Brands collaboration</p>
+                </div>
+                <div class="flex align-center gap-30 bg-gray" style="padding: 20px;">
+                    <img src="/assets/icons/scal_5.svg" alt="arrow up" width="40" height="40">
+                    <p class="text-3">Offline marketing</p>
+                </div>
+                <div class="flex align-center gap-30 bg-gray" style="padding: 20px;">
+                    <img src="/assets/icons/scal_6.svg" alt="arrow up" width="40" height="40">
+                    <p class="text-3">New doctors onboarding</p>
+                </div>
+                <div class="flex align-center gap-30 bg-gray" style="padding: 20px;">
+                    <img src="/assets/icons/scal_7.svg" alt="arrow up" width="40" height="40">
+                    <p class="text-3">CRM <span class="text-dark-gray">(improve analytics)</span></p>
+                </div>
+            </div>
+        </section>
+        <section id="potential" class="section">
+            <h3 class="headline mb-12">Growth potential of this branch</h3>
+            <div class="flex gap-30">
+                <img src="/assets/growth_column.jpg" alt="Potential column" style="flex: 1; max-width: 50%; height: auto;">
+                <img src="/assets/growth_table.jpg" alt="Potential table" style="flex: 1; max-width: 50%; height: auto;">
+            </div>
+        </section>
+        <section id="revenue" class="section">
+            <h3 class="headline mb-12">Projected revenue</h3>
+            <picture>
+                <source media="(max-width: 768px)" srcset="/assets/mobile_revenue.jpg">
+                <img src="/assets/revenue.jpg" alt="revenue chart" style="width: 100%; height: auto;">
+            </picture>
+        </section>
+        <section id="scaling-up" class="section">
+            <h3 class="headline mb-12">Scaling up</h3>
+            <picture>
+                <source media="(max-width: 768px)" srcset="/assets/mobile_scaling-up.jpg">
+                <img src="/assets/scaling-up.jpg" alt="scaling up plan" style="width: 100%; height: auto;">
+            </picture>
+        </section>
+        <section id="sale" class="section">
+            <h3 class="headline mb-12">Project sale:</h3>
+                        <div style="width: 100%; height: 1px; background: var(--gray); margin: 20px 0 40px 0;"></div>
+            <div class="flex align-center justify-between gap-30">
+                <div class="border-gray flex flex-column center justify-center">
+                    <p class="text-2 text-dark-gray mb-6">Company shares</p>
+                    <div class="flex align-center gap-15 mb-6">
+                        <div class="bg-blue flex align-center justify-center" >
+                            <img src="/assets/icons/keys.svg" alt="keys" style="filter: brightness(0) invert(1); width: 40px; height: 40px;">
+                        </div>
+                        <span class="headline">100%</span>
+                    </div>
+                    <span class="headline-2">AED 12'000'000</span>
+                </div>
+                <picture>
+                    <source media="(max-width: 768px)" srcset="/assets/mobile_hands.jpg">
+                    <img src="/assets/hands.jpg" alt="hands shaking" style="flex: 1; height: auto; border-radius: 12px;">
+                </picture>
+            </div>
+        </section>
+        <section id="contact-us" class="section">
+            <h3 class="headline mb-12">Contact us:</h3>
+            <div class="divider"></div>
+            
+            <div class="mobile-contact-order">
+                <button onclick="window.location.href='tel:+971555555555'" class="btn mobile-btn-first">
+                    <img src="/assets/icons/whatsapp.svg" alt="WhatsApp icon">
+                    WhatsApp
+                </button>
+                <p class="text-2 mb-12 mobile-text">Operational business <span class="text-blue">for sale</span></p>
+                <div class="text-right mobile-contact-info">
+                    <p class="text-2">Phone: +971 56 333 33 33</p>
+                    <p class="text-2">Email: 3333333@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="desktop-contact-order">
+                <p class="text-2 mb-12">Operational business <span class="text-blue">for sale</span></p>
+                <div class="flex justify-between align-center gap-30">
+                    <button onclick="window.location.href='tel:+971555555555'" class="btn">
+                        <img src="/assets/icons/whatsapp.svg" alt="WhatsApp icon">
+                        WhatsApp
+                    </button>
+                    <div class="text-right">
+                        <p class="text-2">Phone: +971 56 333 33 33</p>
+                        <p class="text-2">Email: 3333333@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="/script/index.js"></script>
+</html>

@@ -380,7 +380,7 @@
 
   #works .flex-1.bg-blue {
     margin-bottom: 30px !important;
-    padding: 20px !important;
+    padding: 10px !important;
     margin-top: 20px;
   }
 
@@ -390,13 +390,13 @@
   }
 
   #works .flex-1.bg-blue .headline-2 {
-    font-size: var(--text-2-mob-size) !important;
-    line-height: var(--text-2-mob-line-height) !important;
+    font-size: var(--headline-2-mob-size) !important;
+    line-height: var(--healine-2-mob-line-height) !important;
   }
 
   #works .flex-1.bg-blue .headline {
-    font-size: var(--headline-2-mob-size) !important;
-    line-height: var(--headline-2-mob-line-height) !important;
+    font-size: var(--headline-mob-size) !important;
+    line-height: var(--headline-mob-line-height) !important;
   }
 
   #works div[style*="display: grid"] {
@@ -408,6 +408,11 @@
   #works .flex.align-center.gap-15 {
     align-items: flex-start !important;
     gap: 15px !important;
+  }
+
+  img[alt="license"] {
+    width: 48px !important;
+    height: 48px !important;
   }
 
   #works .flex.align-center.gap-15 img {

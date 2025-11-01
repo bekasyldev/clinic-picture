@@ -152,19 +152,20 @@
   @media (min-width: 769px) {
     #sale .flex.align-center.justify-between {
       display: flex !important;
-      align-items: center !important;
+      align-items: stretch !important;
       justify-content: space-between !important;
       gap: 40px !important;
+      
     }
 
     #sale .border-gray {
       background: var(--gray) !important;
-      border: none !important;
       padding: 60px 40px !important;
       border-radius: 12px !important;
       flex: 1 !important;
       max-width: 50% !important;
       align-items: center !important;
+      gap: 60px !important;
     }
 
     #sale .border-gray .bg-blue {
@@ -181,7 +182,6 @@
     #sale img[alt="hands shaking"] {
       width: 100% !important;
       height: auto !important;
-      border-radius: 12px !important;
     }
   }
 
@@ -199,6 +199,11 @@
   #hero img {
     width: 100% !important;
     height: auto;
+  }
+
+  #sale img[alt="hands shaking"] {
+    width: 100% !important;
+    height: auto !important;
   }
 
   /* Mobile collections - horizontal carousel slider */
@@ -505,6 +510,17 @@
 
   #sale .border-gray {
     padding-left: 10px;
+    gap: 20px;
+  }
+
+  #sale .border-gray .bg-blue {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  #sale .border-gray .bg-blue img {
+    width: 38px !important;
+    height: 38px !important;
   }
 
   /* Mobile contact-us section */
@@ -634,15 +650,38 @@
     overflow-x: auto;
 }
 
+#sale .flex.align-center.justify-between {
+    flex-direction: row !important;
+    gap: 0px !important;
+    border-left: 10px solid var(--gray) !important;
+}
+
+
 
 .border-gray {
     padding-left: 40px;
     background: transparent !important;
-    border-left: 6px solid var(--gray) !important;
     width: 100% !important;
-    justify-content: left !important;
     align-items: left !important;
     max-width: 100% !important;
-    height: auto !important;
+    gap: 60px;
+}
 
+.bg-blue {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.bg-blue img {
+  width: 58px !important;
+  height: 58px !important;
+}
+
+#sale img[alt="hands shaking"] {
+  max-width: 80% !important;
+}
+
+#sale picture {
+  display: flex;
+  justify-content: end;
 }

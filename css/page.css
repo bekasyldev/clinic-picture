@@ -169,8 +169,6 @@
     }
 
     #sale .border-gray .bg-blue {
-      width: 80px !important;
-      height: 80px !important;
       border-radius: 50% !important;
     }
 
@@ -667,10 +665,6 @@
     gap: 60px;
 }
 
-.bg-blue {
-  width: 80px !important;
-  height: 80px !important;
-}
 
 .bg-blue img {
   width: 58px !important;
